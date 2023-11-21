@@ -47,9 +47,7 @@ struct ContentView: View {
             } */
         }
         // convert from meters to rest of unit
-        if conversionUnit == "meters" {
-            return baseLength
-        } else if conversionUnit == "km" {
+        if conversionUnit == "km" {
             return baseUnit/1000
         } else if conversionUnit == "feet" {
             return baseUnit/0.3048
